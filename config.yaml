@@ -1,0 +1,7 @@
+pre_command:
+  - "cargo fmt"
+  - "cargo clean"
+target_host: "targ_ip_Addr"
+target_username: "ubuntu"
+target_location: "hello"
+target_command: "/home/ubuntu/.cargo/bin/cargo run"
